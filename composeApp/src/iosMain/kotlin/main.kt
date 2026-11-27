@@ -10,5 +10,5 @@ fun MainViewController(systemAppearance: (isLight: Boolean) -> Unit): UIViewCont
             //Analog of Android Manifest activity.windowSoftInputMode="adjustNothing"
             onFocusBehavior = OnFocusBehavior.DoNothing
         }
-    ) { App(systemAppearance) }
+    ) { App() }
 }
